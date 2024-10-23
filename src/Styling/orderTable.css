@@ -1,0 +1,58 @@
+
+
+.order-table-container {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  /* Table Styles */
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color:black;
+  }
+  
+  /* Header Row Styles */
+  .order-table th {
+    
+    border-radius: 3px;
+    
+  }
+  
+  /* Hover Effect Styles */
+  .order-table tbody tr:hover {
+    background-color: #f5f5f5; /* Change this color as per your preference */
+    cursor: pointer;
+  }
+
+
+  .status-placed {
+    background-color: #e6f7e8; /* Green for PLACED status */
+  }
+  
+  .status-confirmed {
+    background-color: #ffecb3; /* Yellow for CONFIRMED status */
+  }
+  
+  .status-shipped {
+    background-color: #e1f5fe; /* Blue for SHIPPED status */
+  }
+  
+  .status-delivered {
+    background-color: #c8e6c9; /* Light Green for DELIVERED status */
+  }
+  
+  .status-cancelled {
+    background-color: #ffcdd2; /* Red for CANCELLED status */
+  }

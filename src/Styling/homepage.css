@@ -1,0 +1,26 @@
+.newclass
+    {
+      text-align: center;
+      font-size: 18px;
+      font-style: bold;
+    }
+  .photos
+  {
+    display: flex;
+ 
+  }
+
+  .imgs img{
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-right: 50px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.para3{
+    padding: 100px;
+  }
