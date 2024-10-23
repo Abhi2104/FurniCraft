@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getOrderStatus, status_Cancelled, status_Confirmed, status_Delivered, status_Shipped } from "../services/adminAllProducts";
-import NavigationBarAdmin from "./NavigationBarAdmin";
+import NavigationBarAdmin from "./navigationBarAdmin";
 import { useNavigate } from "react-router-dom";
 
 

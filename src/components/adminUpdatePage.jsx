@@ -2,8 +2,7 @@ import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import { getProductDetails } from "../services/productDisplayPage"
 import { UpdateItem } from "../services/adminAllProducts"
-import NavigationBarAdmin from "./NavigationBarAdmin"
-
+import NavigationBarAdmin from "./navigationBarAdmin"
 
 
 function AdminUpdatePage(){

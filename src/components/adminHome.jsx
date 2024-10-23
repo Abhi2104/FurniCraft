@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 import { delProduct, loadProducts } from "../services/adminAllProducts"
 import { useNavigate } from "react-router-dom"
-import NavigationBarAdmin from "./NavigationBarAdmin"
+import NavigationBarAdmin from "./navigationBarAdmin"
+
 
 
 
